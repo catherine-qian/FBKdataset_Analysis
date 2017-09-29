@@ -1,0 +1,25 @@
+as agreed during the last week, we prepared a description of the activities to conduct using the corpus collected in the CHIL room. The work is organized in four steps as reported below.
+
+Please do not hesitate to ask us any questions to better clarify the goals of each step, if necessary. 
+
+Step 1
+ 
+Process the CHIL circular array signals to derive equivalent versions at 16-24-32-48 kHz. We suggest you to perform this conversion in two different ways, i.e., the first one based on using high-level MATLAB functions, and the second one based on low-level functions (which also requires that you design the necessary processing steps to avoid aliasing effects), and then compare results. 
+As final step, you will produce a report providing both the theory behind some experiments and any other experimental evidence that demonstrates the correctness of your work.
+ 
+Step 2
+ 
+From the downsampled signals obtained in the previous step, perform experiments to investigate the impact of different sampling frequencies on the GCC-PHAT accuracy. This analysis will be conducted using microphones at different distances. After it, you will have to analyse the influence of the sampling frequency on the GCF computation, for various possible microphone pair configurations.
+Try to explore the problem from different possible perspectives, in order to eventually explain the limitations of GCF representation with the given circular geometry, in particular for more distant sound sources.
+ 
+Step 3
+ 
+Design a processing procedure for the upsampling of the previously downsampled signals (at 16, 24, 32, 48 kHz) in order to recover corresponding new versions at 96 kHz. Analyze GCC-PHAT and GCF derived by these new signals, and compare them against the GCC-PHAT and GCF versions that had been obtained using the original signals at 96 kHz. Develop a processing procedure to interpolate GCC-PHAT in the lag domain. Try to evidence what information is lost from 96 kHz to a lower sampling frequency, what can be recovered through interpolation in the time-domain, and what advantages you find when using an interpolation directly applied on GCC-PHAT.
+
+Step 4
+ 
+Conduct a study to establish a possible bias in the GCF introduced by different sampling frequencies, intra-microphone pair distance, microphone pair configurations involved in the GCF computation, etc.
+ 
+As in the Step 1, at the end of each step, you have to produce a related report with an introduction to the theory and with a detailed description of the experimental work.
+
+Moreover, note that we did not mention explicitly how you can report results (e.g., localization accuracy, time delay estimation average error, etc.). In this regard, you are free to choose the most suitable methodology and evaluation criteria for each of the assigned tasks.
