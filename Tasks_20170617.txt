@@ -1,0 +1,6 @@
+with the newly collected dataset in FBK:
+Following analysis needs to be done:
+1. Down-sample the signals from 96kHz to 48,24,16kHz
+2. GCC-PHAT compuation at different sampling frequencies
+   check the change/lose of GCC-PHAT peaks
+3. Apply interpolation on the down-sampled signals to see whats the effect caused by interpolation
